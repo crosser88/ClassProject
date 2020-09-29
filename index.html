@@ -1,20 +1,89 @@
-<!DOCTYPE html> <!-- Declaring the type of document -->
+<!DOCTYPE html> 
+<!-- Declaring the type of document -->
+<!-- Author: Christopher Rosser
+	 Date: 29 Sep 20
+	 Index.html default home page for web page development
+-->
 <html>
-	<head> <!-- Header element containing the title element and meta data -->
+	<!-- Header element containing the title element and meta data -->
+	<head> 
 		<meta charset="utf-8">
 		<title>Index</title>
+			<style>
+				/*Formatting the div element of the class index*/
+				.index
+				{
+					font-family: Arial;
+				}
+				/*Formatting the div element of the class about*/
+				.about
+				{
+					font-family: Body, Calibri;
+				}
+				/* Setting the background color of the web page body using CSS*/
+				body
+				{
+					background-color: #F0FFF0;
+				}
+				/* Setting the attributes of the footer for the web page*/
+				footer
+				{
+					font-family: "Times New Roman";
+					text-align: center;
+					padding: 3px;
+				}
+			</style>
 	</head>
+	<!-- Content of the web page -->
+	<body> 
 
-	<body> <!-- Content of the web page -->
-		<h1>Index</h1>
-		<h2>Body</h2>
+		<div class="index">
+			<!-- Index heading element -->
+			<h1>Index</h1> 
+			
+			<p>
+				The title for the default page is, Index. I plan to build upon my webpage by learning the necessary
+				tags to implement <b>structure</b> and <b>functionality</b> of the web page.<br> I will apply the three major
+				considerations to be appropriately displayed among all devices and easily navigational for the users.
+				As I learn the supportive web <br> services (e.g. CSS), I'll further be able to modify the aesthetics of
+			    the web page.
+			</p>
+		</div>
+		<hr>
+		<!-- Div element identified by about; a section on myself and my hobbies -->
+		<div class ="about">
+			<!-- Second heading for about myself paragraphs -->
+			<h2>About myself</h2> 
+			<!-- Paragraph element for the first paragraph about myself -->
+			<p> 
+				Hello, I'm Christopher Rosser a senior at Southwestern College.
+				I'm currently serving in the U.S. Air Force as an avionics specialist.
+				My father is retired from the U.S. Air Force so we moved around often
+				when I was young. I grew up in South Carolina after my father separated
+				from the Air Force. I'm looking forward to graduating with a B.S. in
+				<em>Computer Programming Technology</em>.
+			</p>
 
-		<p>
-			The title for the default page is, Index. I plan to build upon my webpage by learning the necessary
-			tags to implement <b>structure</b> and <b>functionality</b> of the web page.<br> I will apply the three major
-			considerations to be appropriately displayed among all devices and easily navigational for the users.
-			As I learn the supportive web <br> services (e.g. CSS), I'll further be able to modify the aesthetics of
-		    the web page.
-		</p>
+			<!-- Section for list/links to hobbies -->
+				<section>
+					<h3><u>Hobbies</u></h3>
+					<!-- Unordered list element containing links to websites for my hobbies -->
+					<ul>
+						<!-- List elements containing hyperlink anchors to the websites -->
+						<li><a href="https://www.sweetwater.com/" target="_blank">Music</a></li>
+						<li><a href="https://yamaha-motor.com/" target="_blank">Yamaha R6</a></li>
+						<li><a href="https://store.steampowered.com/" target="_blank">Gaming</a></li>
+					</ul>
+				</section>
+		</div>
 	</body>
+
+	<!-- Footer for webpages -->
+	<footer>
+		<p>
+			<small>
+				Copyright &copy;2020 Christopher Rosser
+			</small>
+		</p>
+	</footer>
 </html>
