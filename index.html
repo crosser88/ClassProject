@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <!-- Declaring the type of document -->
 <!-- Author: Christopher Rosser
-	 Date: 29 Sep 20
+	 Date: 14 Oct 20
 	 Index.html default home page for web page development
 -->
 <html>
@@ -19,29 +19,61 @@
 				.about
 				{
 					font-family: Body, Calibri;
+					padding-left: 25%;
 				}
 				/* Setting the background color of the web page body using CSS*/
 				body
 				{
 					background-color: #F0FFF0;
+					float: left;
+					width: 60%;
+					margin: 0 5%;
+				}
+				/* Attributes to the links column */
+				a:link, a:visited { color: #732673; }
+				a:focus, a:hover, a:active { color: #bf40bf; }
+				.links
+				{
+					float: left;
+					width: 25%;
+					margin-left: 0 5% 0 0;
 				}
 				/* Setting the attributes of the footer for the web page*/
 				footer
 				{
+					clear: left;
 					font-family: "Times New Roman";
 					text-align: center;
 					padding: 3px;
 				}
 			</style>
 	</head>
-	<!-- Content of the web page -->
-	<body> 
 
 		<div class="index">
 			<!-- Name heading element -->
-			<h1>Christopher Rosser</h1> 
+			<h1>Christopher Rosser</h1>
+			<hr>
 		</div>
-		<hr>
+		<!-- Section for list/links to hobbies -->
+		<aside>
+			<h3>Links</h3>
+			<div class ="links">
+				<!-- List elements containing hyperlink anchors to the web pages -->
+				<a href="https://crosser88.github.io/ClassProject/music.html">Music</a>
+				<br>
+				<a href="https://crosser88.github.io/ClassProject/motorcycle.html">Motorcycle</a>
+				<br>
+				<a href="https://crosser88.github.io/ClassProject/gaming.html">Gaming</a>
+				<br>
+				<a href="https://crosser88.github.io/ClassProject/mmedia.html">Multimedia</a>
+				<br>
+			</div>
+		</aside>
+
+
+	<!-- Content of the web page -->
+	<body> 
+
 		<!-- Div element identified by about; a section on myself and my hobbies -->
 		<div class ="about">
 			<!-- Second heading for about myself paragraphs -->
@@ -56,17 +88,6 @@
 				<em>Computer Programming Technology</em>.
 			</p>
 
-			<!-- Section for list/links to hobbies -->
-				<section>
-					<h3><u>Hobbies</u></h3>
-					<!-- Unordered list element containing links to web pages for my hobbies -->
-					<ul>
-						<!-- List elements containing hyperlink anchors to the web pages -->
-						<li><a href="https://crosser88.github.io/ClassProject/music.html">Music</a></li>
-						<li><a href="https://crosser88.github.io/ClassProject/motorcycle.html">Motorcycle</a></li>
-						<li><a href="https://crosser88.github.io/ClassProject/gaming.html">Gaming</a></li>
-					</ul>
-				</section>
 		</div>
 	</body>
 
