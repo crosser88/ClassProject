@@ -1,91 +1,52 @@
 <!DOCTYPE html> 
 <!-- Declaring the type of document -->
 <!-- Author: Christopher Rosser
-	 Date: 14 Oct 20
+	 Date: 29 Sep 20
 	 Index.html default home page for web page development
 -->
 <html>
 	<!-- Header element containing the title element and meta data -->
 	<head> 
 		<meta charset="utf-8">
+		<!-- <link href="dps-styles.css" rel="stylesheet" type="text/css" /> -->
 		<title>Index</title>
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
 			<style>
-				/*Formatting the div element of the class index*/
-				.index
-				{
-					font-family: Arial;
-				}
-				/*Formatting the div element of the class about*/
-				.about
-				{
-					font-family: Body, Calibri;
-					padding-left: 25%;
-				}
-				/* Setting the background color of the web page body using CSS*/
-				body
-				{
-					background-color: #F0FFF0;
-					float: left;
-					width: 60%;
-					margin: 0 5%;
-				}
-				/* Attributes to the links column */
-				a:link, a:visited { color: #732673; }
-				a:focus, a:hover, a:active { color: #bf40bf; }
-				.links
-				{
-					float: left;
-					width: 25%;
-					margin-left: 0 5% 0 0;
-				}
-				/* Setting the attributes of the footer for the web page*/
-				footer
-				{
-					clear: left;
-					font-family: "Times New Roman";
-					text-align: center;
-					padding: 3px;
-				}
+				@import url(dps-styles.css);
 			</style>
 	</head>
 
-		<div class="index">
+		<div class="mainhead">
 			<!-- Name heading element -->
-			<h1>Christopher Rosser</h1>
-			<hr>
+			<h1><div class="dream">Dream</div><div class="pstudio"> Pool Studios</div></h1>
+			<nav>
+				<ul>
+					<!-- Links to pages  -->
+					<li><a href="https://crosser88.github.io/ClassProject/index.html">Home</a></li>
+					<li><a href="https://crosser88.github.io/ClassProject/about.html">About Me</a></li>
+					<li><a href="https://crosser88.github.io/ClassProject/mmedia.html">Multimedia</a></li>
+					<li><a href="https://crosser88.github.io/ClassProject/gear.html">Equipment</a></li>
+				</ul>
+			</nav>
 		</div>
-		<!-- Section for list/links to hobbies -->
-		<aside>
-			<h3>Links</h3>
-			<div class ="links">
-				<!-- List elements containing hyperlink anchors to the web pages -->
-				<a href="https://crosser88.github.io/ClassProject/music.html">Music</a>
-				<br>
-				<a href="https://crosser88.github.io/ClassProject/motorcycle.html">Motorcycle</a>
-				<br>
-				<a href="https://crosser88.github.io/ClassProject/gaming.html">Gaming</a>
-				<br>
-				<a href="https://crosser88.github.io/ClassProject/mmedia.html">Multimedia</a>
-				<br>
-			</div>
-		</aside>
-
+		<hr>
 
 	<!-- Content of the web page -->
 	<body> 
 
 		<!-- Div element identified by about; a section on myself and my hobbies -->
-		<div class ="about">
+		<div class ="welcome">
 			<!-- Second heading for about myself paragraphs -->
-			<h2>About myself</h2> 
+			<h2>Welcome!</h2> 
 			<!-- Paragraph element for the first paragraph about myself -->
-			<p> 
-				Hello, I'm Christopher Rosser a senior at Southwestern College.
-				I'm currently serving in the U.S. Air Force as an avionics specialist.
-				My father is retired from the U.S. Air Force so we moved around often
-				when I was young. I grew up in South Carolina after my father separated
-				from the Air Force. I'm looking forward to graduating with a B.S. in
-				<em>Computer Programming Technology</em>.
+			<p class="homepara"> 
+				Hello and welcome to my website! As we progress through CPT 422, I want to 
+				continously improve the design and functionality. The website I have in mind
+				is for a future business in recording, mixing, and/or mastering for bands
+				or artist(s). Unfortunately, I don't have a nice camera or photo editing software.
+				The photos taken on my smartphone will have to do for now. Take a look around, there
+				is more to come!
+
 			</p>
 
 		</div>
@@ -93,10 +54,8 @@
 
 	<!-- Footer for webpages -->
 	<footer>
-		<p>
 			<small>
 				Copyright &copy;2020 Christopher Rosser
 			</small>
-		</p>
 	</footer>
 </html>
