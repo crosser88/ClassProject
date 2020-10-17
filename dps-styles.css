@@ -1,0 +1,168 @@
+/*
+	CSS for Dream Pool Studios website
+	Author: Christopher Rosser
+	Date: 17 Oct 20
+*/
+@charset "UTF-8";
+html 
+{
+  box-sizing: border-box;
+}
+* 
+{
+  box-sizing: inherit;
+}
+/*Formatting the div element of the class index*/
+.mainhead
+{
+	font-family: Arial;
+}
+
+h1
+{
+	margin: 25px 0px -38px 10px;
+}
+
+h2
+{
+	font-family: Verdana;
+	color: #F8F8FF;
+	text-align: center;
+}
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding-left: 80px;
+  overflow: hidden;
+}
+
+li
+{
+	display: inline;
+}
+
+li a:hover
+{
+	color: #DCDCDC;
+}
+
+nav
+{
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+/* Attributes to the links column */
+/*
+a:link, a:active, a:visited
+{
+	color: #FFFAF0;
+	padding: 1em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-flex;
+}
+*/
+
+li a
+{
+	color: #FFFAF0;
+	padding: 1em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:link.aheroafake, a:visited.aheroafake
+{
+	color: #F0FFF0;
+	text-decoration: none;
+}
+
+a:hover.aheroafake
+{
+	color: #20B2AA;
+	text-decoration: underline;
+}
+
+a:link.jamie, a:visited.jamie
+{
+	color: #F0FFF0;
+	text-decoration: none;
+}
+
+a:hover.jamie
+{
+	color: #20B2AA;
+	text-decoration: underline;
+}
+
+a:link.victory, a:visited.victory
+{
+	color: #F0FFF0;
+	text-decoration: none;
+}
+
+a:hover.victory
+{
+	color: #20B2AA;
+	text-decoration: underline;
+}
+
+
+.dream
+{
+	position: absolute;
+	color: #FFFAF0;
+	text-shadow: 2px 2px 3px #4B0082;
+}
+
+.pstudio
+{
+	position: relative;
+	padding-left: 112px;
+	color: #FFFAF0;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+p
+{
+	margin: 25px;
+	color: #F5FFFA;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+
+section
+{
+	padding-left: 25px;
+}
+
+iframe
+{
+	margin: 0 auto;
+}
+
+/* Setting the background color of the web page body using CSS*/
+body
+{
+	background-color: #696969;
+	float: left;
+	width: 60%;
+	margin: 0 5%;
+}
+
+/* Setting the attributes of the footer for the web page*/
+footer
+{
+	clear: left;
+	color: #F5FFFA;
+	font-family: "Times New Roman";
+	text-align: center;
+	padding: 4px;
+}
