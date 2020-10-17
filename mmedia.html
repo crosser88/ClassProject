@@ -1,79 +1,40 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <!-- Declaring the type of document -->
 <!-- Author: Christopher Rosser
-	 Date: 13 Oct 20
-	 mmedia.html webpage tutorial for playing major 7 guitar chords
+	 Date: 17 Oct 20
+	 mmedia.html multimedia page
 -->
 <html>
 	<!-- Header element containing the title element and meta data -->
 	<head> 
 		<meta charset="utf-8">
+		<!-- <link href="dps-styles.css" rel="stylesheet" type="text/css" /> -->
 		<title>Multimedia</title>
-		<style>
-			/*Formatting the div element of the class mediahead*/
-			.mediahead
-			{
-				font-family: "Times New Roman";
-				text-align: left;
-			}
-			/*Formatting the div element of the class mediadesc*/
-			.mediadesc
-			{
-				font-family: Body, Calibri;
-				padding-left: 25%;
-			}
-			/* Setting the background color of the web page body using CSS*/
-			body
-			{
-				background-color: #F0FFF0;
-				float: left;
-				width: 60%;
-				margin: 0 5%;
-			}
-			/* Attributes to the links column */
-			a:link, a:visited { color: #732673; }
-			a:focus, a:hover, a:active { color: #bf40bf; }
-			.links
-			{
-				float: left;
-				width: 25%;
-				margin-left: 0 5% 0 0;
-			}
-			/* Setting the attributes of the footer for the web page*/
-			footer
-			{
-				clear: left;
-				font-family: "Times New Roman";
-				text-align: center;
-				padding: 3px;
-			}
-		</style>
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+			<style>
+				@import url(dps-styles.css);
+			</style>
 	</head>
-		
-		<div class ="mediahead">
-			<!-- Media heading element -->
-			<h1>How to play a Major Seventh Chord</h1> 
-			<hr>
-		</div>
-		<!-- Side bar area for links -->
-		<aside>
-			<h3>Links</h3>
-			<div class ="links">
-				<a href="https://crosser88.github.io/ClassProject/index.html" alt="main">Index</a>
-				<br>
-				<a href="https://crosser88.github.io/ClassProject/music.html">Music</a>
-				<br>
-				<a href="https://crosser88.github.io/ClassProject/motorcycle.html">Motorcycle</a>
-				<br>
-				<a href="https://crosser88.github.io/ClassProject/gaming.html">Gaming</a>
-				<br>
-			</div>
-		</aside>
 
-	<!-- Content of the multimedia web page -->
+		<div class="mainhead">
+			<!-- Name heading element -->
+			<h1><div class="dream">Dream</div><div class="pstudio"> Pool Studios</div></h1>
+			<nav>
+				<ul>
+					<!-- Links to pages  -->
+					<li><a href="https://crosser88.github.io/ClassProject/index.html">Home</a></li>
+					<li><a href="https://crosser88.github.io/ClassProject/about.html">About Me</a></li>
+					<li><a href="https://crosser88.github.io/ClassProject/mmedia.html">Multimedia</a></li>
+					<li><a href="https://crosser88.github.io/ClassProject/gear.html">Equipment</a></li>
+				</ul>
+			</nav>
+		</div>
+		<hr>
+
+	<!-- Content of the web page -->
 	<body> 
- 
-		<!-- Div element identified by musicdesc; a description of my music hobby -->
+
+		<!-- Div element identified by about; a section on myself and my hobbies -->
 		<div class ="mediadesc">
 			<!-- Second heading for music hobby paragraphs -->
 			<center><h2>Maj7 Scale Intervals</h2></center>
@@ -92,7 +53,7 @@
 				<br><br>
 				Below is a video on Major Seventh Chords.
 			</p>
-			<section>
+			<section class="chordvideo">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/eC8GxmOXKXo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture	" allowfullscreen>
 				</iframe>
 			</section>
@@ -108,20 +69,18 @@
 				learning how to play guitar. I do recommend to <br> start reading music notation if you want to
 				be more serious about music.
 			</p>
-			<img src="AChordExample.PNG" alt="chordshape">
+			<section class="tab">
+				<img src="AChordExample.PNG" alt="chordshape">
+			</section>
 
 		</div>
-
 	</body>
 
-
-		<!-- Footer for webpages -->
-		<footer>
-		<p>
+	<!-- Footer for webpages -->
+	<footer>
 			<small>
 				Copyright &copy;2020 Christopher Rosser
 			</small>
-		</p>
 	</footer>
-
 </html>
+
