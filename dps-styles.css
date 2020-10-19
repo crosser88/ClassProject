@@ -22,7 +22,7 @@ html
 {
 	font-family: Arial;
 	margin-bottom: 20px;
-	padding-left: 80px;
+	padding-left: 55px;
 }
 
 h1
@@ -46,7 +46,7 @@ ul.navlist
 {
   	list-style-type: none;
   	margin: 0;
-  	padding-left: 250px;
+  	margin-left: 210px;
   	overflow: hidden;
 	text-shadow: 2px 2px 3px #000000;
 }
@@ -289,4 +289,46 @@ div.audiohead
 	font-size: 28px;
 	font-family: Verdana;
 	font-weight: 850;
+}
+
+table, th, td
+{
+	table-layout: auto;
+	border: 1px solid #FF7F50;
+	border-collapse: collapse;
+	border-style: groove;
+	width: 370px;
+}
+
+table
+{
+	margin: 30px 386px 60px 386px;
+}
+
+caption
+{
+	color: #F8F8FF;
+	font-size: 20px;
+	padding: 4px;
+	text-shadow: 2px 2px 2px #000000;
+	letter-spacing: 0.5px;
+}
+
+th
+{
+	padding: 2px;
+	text-align: center;
+	color: #FFFAF0;
+	text-shadow: 2px 2px 2px #000000;
+	letter-spacing: 0.3px;
+}
+
+td
+{
+	text-align: center;
+	color: #FFFAF0;
+	font-weight: 870;
+	padding: 4px;
+	text-shadow: 2px 2px 2px #000000;
+	letter-spacing: 0.3px;
 }
