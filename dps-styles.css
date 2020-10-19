@@ -6,16 +6,23 @@
 @charset "UTF-8";
 html 
 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bgCover.jpg) no-repeat fixed;
+  	background-size: cover;
+  	background-blend-mode: overlay;
+  	background-blend-mode: darken;
   box-sizing: border-box;
 }
 * 
 {
   box-sizing: inherit;
 }
+
 /*Formatting the div element of the class index*/
 .mainhead
 {
 	font-family: Arial;
+	margin-bottom: 20px;
+	padding-left: 80px;
 }
 
 h1
@@ -34,8 +41,13 @@ ul
 {
   list-style-type: none;
   margin: 0;
-  padding-left: 80px;
+  padding-left: 250px;
   overflow: hidden;
+}
+
+ul.homelist
+{
+	text-shadow: 2px 2px 3px #000000;
 }
 
 li
@@ -54,6 +66,7 @@ nav
 	overflow: hidden;
 	text-align: center;
 }
+
 
 /* Attributes to the links column */
 /*
@@ -117,7 +130,7 @@ a:hover.victory
 {
 	position: absolute;
 	color: #FFFAF0;
-	text-shadow: 2px 2px 3px #4B0082;
+	text-shadow: 2px 2px 3px #000000;
 }
 
 .pstudio
@@ -126,16 +139,21 @@ a:hover.victory
 	padding-left: 112px;
 	color: #FFFAF0;
 	letter-spacing: 3px;
-	text-shadow: 1px 1px 2px #000000;
+	text-shadow: 2px 2px 3px #000000;
 }
 
 p
 {
 	margin: 25px;
-	color: #F5FFFA;
+	color: #F8F8FF;
 	font-size: 18px;
 	letter-spacing: 1px;
 	text-align: justify;
+}
+
+p.homepara
+{
+	text-shadow: 2px 2px 2px #000000;
 }
 
 section
@@ -151,10 +169,9 @@ iframe
 /* Setting the background color of the web page body using CSS*/
 body
 {
-	background-color: #696969;
-	float: left;
+	/*background-color: #696969;*/
 	width: 60%;
-	margin: 0 5%;
+	margin: 220px 200px 100px 400px;
 }
 
 /* Setting the attributes of the footer for the web page*/
@@ -165,4 +182,5 @@ footer
 	font-family: "Times New Roman";
 	text-align: center;
 	padding: 4px;
+	margin-top: 500px;
 }
