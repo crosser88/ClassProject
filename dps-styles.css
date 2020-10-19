@@ -157,6 +157,11 @@ p.homepara
 	text-shadow: 2px 2px 2px #000000;
 }
 
+p.aboutpara
+{
+	text-shadow: 2px 2px 2px #000000;
+}
+
 section
 {
 	padding-left: 25px;
