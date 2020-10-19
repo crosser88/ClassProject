@@ -39,7 +39,7 @@ h2
 
 ul 
 {
-
+  	list-style-type: none;
 }
 
 ul.navlist
@@ -49,6 +49,24 @@ ul.navlist
   	padding-left: 250px;
   	overflow: hidden;
 	text-shadow: 2px 2px 3px #000000;
+}
+
+ul.gear
+{
+	font-size: 23px;
+	font-family: Calibri;
+	list-style-type: circle;
+	color: #F8F8FF;
+	padding-top: 25px;
+	padding-left: 40px;
+	text-shadow: 2px 2px 3px #000000;
+}
+
+li.gearitems
+{
+	font-size: 19px;
+	text-indent: 50px;
+	padding: 4px;
 }
 
 li.navlist
