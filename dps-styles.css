@@ -180,6 +180,14 @@ p.aboutpara
 	text-shadow: 2px 2px 2px #000000;
 }
 
+p.submissionpara
+{
+	font-size: 18px;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000000;
+	padding-top: 18px;
+}
+
 section
 {
 	padding-top: 20px;
