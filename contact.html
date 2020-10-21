@@ -303,7 +303,7 @@
 							<option value="Ukraine">Ukraine</option>
 							<option value="United Arab Erimates">United Arab Emirates</option>
 							<option value="United Kingdom">United Kingdom</option>
-							<option value="United States of America" selected="selected">United States of America</option>
+							<option value="USA" selected="selected">United States of America</option>
 							<option value="Uraguay">Uruguay</option>
 							<option value="Uzbekistan">Uzbekistan</option>
 							<option value="Vanuatu">Vanuatu</option>
@@ -339,15 +339,28 @@
 				  	{
 						var x = document.forms["contactForm"]["fname"].value;
 						var y = document.forms["contactForm"]["lname"].value;
+						var z = document.forms["contactForm"]["subject"].value;
 						if (x == "")
 						{
 						    alert("First Name must be filled out");
 						    return false;
 						}
-						if (y == "")
+						else if (y == "")
 						{
 						    alert("Last Name must be filled out");
 						    return false;
+						}
+						else if (z == "")
+						{
+						    alert("Please enter a subject");
+						    return false;
+						}
+						else
+						{
+							document.forms["contactForm"]["fname"].value = "";
+							document.forms["contactForm"]["lname"].value = "";
+							document.forms["contactForm"]["subject"].value = "";
+							document.forms["contactForm"]["country"].value = "USA";
 						}
 					}
 				  </script>
