@@ -314,8 +314,8 @@ table
 {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 14px;
-	margin-bottom: 14px;
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 caption
@@ -329,7 +329,7 @@ caption
 
 th
 {
-	padding: 2px;
+	padding: 4px;
 	text-align: center;
 	color: #FFFAF0;
 	text-shadow: 2px 2px 2px #000000;
@@ -341,7 +341,7 @@ td
 	text-align: center;
 	color: #FFFAF0;
 	font-weight: 870;
-	padding: 4px;
+	padding: 6px;
 	text-shadow: 2px 2px 2px #000000;
 	letter-spacing: 0.3px;
 }
