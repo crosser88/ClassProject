@@ -149,8 +149,8 @@ a:hover.victory
 
 .dream
 {
-	position: absolute;
-	padding-right: 40px;
+	position: relative;
+	padding-right: 80px;
 	color: #FFFAF0;
 	text-shadow: 2px 2px 3px #000000;
 }
