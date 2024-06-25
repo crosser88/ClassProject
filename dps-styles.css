@@ -173,6 +173,15 @@ p
 	text-align: justify;
 }
 
+p.subpara
+{
+	margin: 25px;
+	color: #F8F8FF;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
 p.homepara
 {
 	text-shadow: 2px 2px 2px #000000;
