@@ -317,15 +317,15 @@ table, th, td
 	border: 1px solid #FF7F50;
 	border-collapse: collapse;
 	border-style: groove;
-	width: 400px;
+	width: 420px;
 }
 
 table
 {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 28px;
+	margin-bottom: 28px;
 }
 
 caption
@@ -339,7 +339,7 @@ caption
 
 th
 {
-	padding: 8px;
+	padding: 14px;
 	text-align: center;
 	color: #FFFAF0;
 	text-shadow: 2px 2px 2px #000000;
@@ -351,7 +351,7 @@ td
 	text-align: center;
 	color: #FFFAF0;
 	font-weight: 870;
-	padding: 10px;
+	padding: 14px;
 	text-shadow: 2px 2px 2px #000000;
 	letter-spacing: 0.3px;
 }
